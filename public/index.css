@@ -1,1 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+video {
+    border: 1px solid black;
+    margin: 10px;
+    max-height: 200px;
+    max-width: 200px;
+}
 
+#video-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.userVideo{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+
+footer{
+    background: black;
+    color: aliceblue;
+    position: fixed;
+    display: flex;
+    width: 400px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    left:30vw;
+    top: 92vh;
+}
+footer button{
+    padding: 10px;
+    transition: 400ms;
+}
+footer button:hover{
+    color: black;
+    background: white;
+}
